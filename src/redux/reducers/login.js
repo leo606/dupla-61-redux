@@ -1,4 +1,4 @@
-const INITAL = {};
+const INITAL = { value: { email: '', senha: '' } };
 
 function login(state = INITAL, action) {
   switch (action.type) {
